@@ -16,7 +16,7 @@ const PokemonView = () => {
           <img
             src={data.sprites.front_shiny}
             alt={data.species.name}
-            className="h-96 bg-white p-5 rounded-2xl"
+            className="h-96 bg-white p-5 rounded-2xl bg-linear-to-tl from-red-600 to-yellow-400 "
           />
           <div className="self-start text-black p-10">
             <h3 className="font-bold text-4xl py-2">{data.name}</h3>
