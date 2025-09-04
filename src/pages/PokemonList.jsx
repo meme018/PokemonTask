@@ -37,7 +37,7 @@ const PokemonList = () => {
                 return (
                   <div
                     key={pokemon.name}
-                    className="h-100 w-75 border-2 border-red-600 p-3 flex flex-col items-center bg-white"
+                    className="h-105 w-70 border-2 border-red-600 p-3 flex flex-col items-center bg-white"
                   >
                     <Link to={`/${pokemon.name}`}>
                       <img
